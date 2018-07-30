@@ -29,6 +29,7 @@
         <jjwt.version>0.9.0</jjwt.version>
         <fastjson.version>1.2.46</fastjson.version>
         <swagger2.version>2.8.0</swagger2.version>
+        <commons-io.version>2.6</commons-io.version>
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
     </properties>
     <dependencies>
