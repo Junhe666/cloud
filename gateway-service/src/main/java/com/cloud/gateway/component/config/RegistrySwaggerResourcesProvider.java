@@ -4,6 +4,8 @@ import com.cloud.common.constant.ServiceNameConstant;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.cloud.netflix.zuul.filters.Route;
 import org.springframework.cloud.netflix.zuul.filters.RouteLocator;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
 import springfox.documentation.swagger.web.SwaggerResource;
 import springfox.documentation.swagger.web.SwaggerResourcesProvider;
 
@@ -13,6 +15,8 @@ import java.util.List;
 /**
  * Created by Junhe on 2018/7/30
  */
+@Primary
+@Component
 public class RegistrySwaggerResourcesProvider implements SwaggerResourcesProvider {
     private final RouteLocator routeLocator;
 
